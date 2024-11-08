@@ -17,7 +17,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-@@ -9,6 +32,6 @@ Run the script:
+Run the script:
 ```sh
 python app/unemployment.py
 
