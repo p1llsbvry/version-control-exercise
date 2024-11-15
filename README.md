@@ -29,3 +29,11 @@ Stocks report:
 ```sh
 python -m app.stocks
 ```
+```sh
+python -m app.stocks
+```
+## Testing
+Run tests:
+```sh
+pytest
+```
