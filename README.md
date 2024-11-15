@@ -25,3 +25,7 @@ python app/unemployment.py
 # equivalent (we'll need this once we start importing code from one file to another):
 python -m app.unemployment
 ```
+Stocks report:
+```sh
+python -m app.stocks
+```
