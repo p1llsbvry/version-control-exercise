@@ -21,7 +21,7 @@ def format_pct(my_number):
     return f"{(my_number * 100):.2f}%"
 
 
-def fetch_unemployment_json():
+def fetch_unemployment_data():
 
     request_url = f"https://www.alphavantage.co/query?function=UNEMPLOYMENT&apikey={API_KEY}"
 
@@ -53,7 +53,7 @@ def fetch_unemployment_json():
 if __name__ == "__main__":
 
 
-    data = fetch_unemployment_json()
+    data = fetch_unemployment_data()
 
     # Challenge A
     #
